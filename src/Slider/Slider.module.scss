@@ -22,13 +22,15 @@
 
 .button_left {
   position: absolute;
-  top: 118px;
+  top: 130px;
   transform: translateX(-50%);
+  background-color: #fff;
+  z-index: 1;
 }
 
 .button_right {
   position: absolute;
   top: 118px;
   right: 0;
-  transform: translateX(-50%);
+  transform: translateX(50%);
 }
