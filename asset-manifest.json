@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fotoprokat-24/static/css/main.8da472f4.css",
-    "main.js": "/fotoprokat-24/static/js/main.0ef19b46.js",
+    "main.css": "/fotoprokat-24/static/css/main.fe9ac64d.css",
+    "main.js": "/fotoprokat-24/static/js/main.0f1bc55c.js",
     "static/js/787.02eda720.chunk.js": "/fotoprokat-24/static/js/787.02eda720.chunk.js",
     "index.html": "/fotoprokat-24/index.html",
-    "main.8da472f4.css.map": "/fotoprokat-24/static/css/main.8da472f4.css.map",
-    "main.0ef19b46.js.map": "/fotoprokat-24/static/js/main.0ef19b46.js.map",
+    "main.fe9ac64d.css.map": "/fotoprokat-24/static/css/main.fe9ac64d.css.map",
+    "main.0f1bc55c.js.map": "/fotoprokat-24/static/js/main.0f1bc55c.js.map",
     "787.02eda720.chunk.js.map": "/fotoprokat-24/static/js/787.02eda720.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8da472f4.css",
-    "static/js/main.0ef19b46.js"
+    "static/css/main.fe9ac64d.css",
+    "static/js/main.0f1bc55c.js"
   ]
 }
