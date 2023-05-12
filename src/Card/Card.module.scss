@@ -1,0 +1,97 @@
+.card {
+  position: relative;
+  width: 335px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 35px;
+
+
+  border: 1px solid #efefef;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  margin-bottom: 29px;
+}
+
+.model {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.name {
+  margin-bottom: 7px;
+  font-size: 14px;
+  line-height: 26px;
+  color: #75758A;
+}
+
+.additional {
+  position: absolute;
+  top: 21px;
+  right: 21px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  &_image {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+  }
+}
+
+.prices {
+  display: flex;
+  width: 100%;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 25%;
+  padding: 17px 0;
+  border: 1px solid #efefef;
+}
+
+.amount {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.day {
+  font-size: 14px;
+  line-height: 20px;
+  color: #75758A;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  padding: 20px 22px;
+}
+
+.button {
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #efefef;
+  border-radius: 100px;
+
+  &_cart {
+    color: #fff;
+    background: linear-gradient(180deg, #8EE902 0%, #4F9C2C 100%); 
+  }
+}

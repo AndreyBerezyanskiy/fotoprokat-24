@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import { useMediaQuery } from 'react-responsive';
+import { HeaderMobile } from './HeaderMobile';
+import { HeaderDesktop } from './HeaderDesktop';
+import { PopularGoods } from './PopularGoods';
 
 function App() {
+  const isDesktop = useMediaQuery({
+    query: '(min-width: 1224px)'
+  })
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      {isDesktop 
+        ? <HeaderDesktop />
+        : <HeaderMobile />
+      }
+
+      {/* {isDesktop 
+        ? <PopularGoods />
+        : <Slider />
+      } */}
+      
+      <PopularGoods />
     </div>
   );
 }

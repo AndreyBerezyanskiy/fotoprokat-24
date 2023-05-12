@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  padding: 18px 25px;
+  justify-content: space-between;
+
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  list-style: none;
+}
+
+.link {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: -4px;
+    right: -7px;
+    width: 6px;
+    height: 6px;
+    background: linear-gradient(270deg, #8EE901 0%, #4F9C2C 99.06%);
+    color: white;
+    border-radius: 50%;
+  }
+}
+
+.logo_image {
+  vertical-align: middle;
+}
