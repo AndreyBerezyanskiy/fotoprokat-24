@@ -20,16 +20,16 @@
   height: 40px;
 }
 
-.button {
+.button_left {
   position: absolute;
   top: 130px;
+  transform: translateX(-50%);
   z-index: 2;
 }
 
-.button_left {
-  transform: translateX(-50%);
-}
-
 .button_right {
+  position: absolute;
+  top: 130px;
   right: -8px;
+  z-index: 2;
 }

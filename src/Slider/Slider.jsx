@@ -53,11 +53,11 @@ export const Slider = () => {
       ))}
       </Swiper>
       
-      <div className={`${styles.button}${styles.button_right}`} onClick={handleNext}>
+      <div className={styles.button_right} onClick={handleNext}>
         <img
           src="right.svg"
           alt="next slide"
-          className={`${styles.button}${styles.button_right}`}
+          className={styles.button_image}
         />
       </div>
     </div>
