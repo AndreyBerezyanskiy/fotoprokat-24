@@ -67,7 +67,8 @@ const {
       <div className={styles.buttons}>
         <a className={styles.button} href="#about">Подробнее</a>
         <a className={`${styles.button} ${styles.button_cart}`} href="#cart">
-          <img src="cart.svg" alt="cart"/> В корзину</a>
+          <img src="cart.svg" alt="cart"/>
+          <span >В корзину</span></a>
       </div>
     </div>
   )
