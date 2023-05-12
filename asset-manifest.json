@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.bc42cdde.css",
-    "main.js": "/static/js/main.febb7ef2.js",
-    "static/js/787.02eda720.chunk.js": "/static/js/787.02eda720.chunk.js",
-    "index.html": "/index.html",
-    "main.bc42cdde.css.map": "/static/css/main.bc42cdde.css.map",
-    "main.febb7ef2.js.map": "/static/js/main.febb7ef2.js.map",
-    "787.02eda720.chunk.js.map": "/static/js/787.02eda720.chunk.js.map"
+    "main.css": "/fotoprokat-24/static/css/main.bc42cdde.css",
+    "main.js": "/fotoprokat-24/static/js/main.ea76ee42.js",
+    "static/js/787.02eda720.chunk.js": "/fotoprokat-24/static/js/787.02eda720.chunk.js",
+    "index.html": "/fotoprokat-24/index.html",
+    "main.bc42cdde.css.map": "/fotoprokat-24/static/css/main.bc42cdde.css.map",
+    "main.ea76ee42.js.map": "/fotoprokat-24/static/js/main.ea76ee42.js.map",
+    "787.02eda720.chunk.js.map": "/fotoprokat-24/static/js/787.02eda720.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc42cdde.css",
-    "static/js/main.febb7ef2.js"
+    "static/js/main.ea76ee42.js"
   ]
 }
