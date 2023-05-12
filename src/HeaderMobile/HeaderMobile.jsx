@@ -8,7 +8,7 @@ export const HeaderMobile = () => {
         <ul className={styles.list}>
           <li className={styles.item}>
             <a className={styles.link} href="#favorites">
-              <img src="./star.svg" alt="favorites"/>
+              <img src="/star.svg" alt="favorites"/>
             </a>
           </li>
           

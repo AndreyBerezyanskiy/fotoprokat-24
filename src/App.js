@@ -3,6 +3,7 @@ import { useMediaQuery } from 'react-responsive';
 import { HeaderMobile } from './HeaderMobile';
 import { HeaderDesktop } from './HeaderDesktop';
 import { PopularGoods } from './PopularGoods';
+import { Slider } from './Slider';
 
 function App() {
   const isDesktop = useMediaQuery({
@@ -16,12 +17,10 @@ function App() {
         : <HeaderMobile />
       }
 
-      {/* {isDesktop 
-        ? <PopularGoods />
-        : <Slider />
-      } */}
-      
-      <PopularGoods />
+      {isDesktop 
+        ? <Slider />
+        : <PopularGoods />
+      }
     </div>
   );
 }

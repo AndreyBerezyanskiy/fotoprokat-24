@@ -7,7 +7,9 @@
   align-items: center;
   padding-top: 35px;
 
-
+  @media (min-width: 1224px) {
+    width: 350px;
+  }
   border: 1px solid #efefef;
 }
 
